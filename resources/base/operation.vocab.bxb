@@ -1,0 +1,7 @@
+vocab(operation){
+  "ADD" {"plus","add","and","+"}
+  "MULTIPLY" {"multiply","into","*","x","X"}
+  "SUBTRACT" {"subtract","substract","reduce","minus","-"}
+  "DIVIDE" {"divide","by","/"}
+  "MOD" {"mod","remainder","%"}
+}

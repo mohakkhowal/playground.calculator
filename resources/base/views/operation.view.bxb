@@ -1,0 +1,24 @@
+input-view{
+  match{
+    operation(this)
+  }
+  message ("Enter operation to perform (in uppercase): (ADD/SUBTRACT/MOD/DIVIDE/MULTIPLY)")
+  render{
+    form{
+      elements{
+        text-input{
+          id (operation)
+          type(operation)
+        }
+      }
+      on-submit{
+        goal{
+          operation
+        }
+        value{
+          viv.core.FormElement(operation)
+        }
+      }
+    }
+  }
+}

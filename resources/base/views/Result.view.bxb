@@ -1,0 +1,20 @@
+result-view{
+  match{
+    Result(this){
+      from-output: Calculate(answer)
+    }
+  }
+  render{
+    layout{
+        section{  
+          content{
+            single-line{
+              text{
+                value("Result is : #{value(answer)}")
+              }
+            }
+          }
+        }
+    }
+  }
+}

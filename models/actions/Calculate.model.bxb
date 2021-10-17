@@ -1,0 +1,19 @@
+action (Calculate) {
+  type(Calculation)
+  description (Calculator)
+  collect {
+    input (num1) {
+      type (num1)
+      min (Required) max (One)
+    }
+    input (num2) {
+      type (num2)
+      min (Required) max (One)
+    }
+    input (operation) {
+      type (operation)
+      min (Required) max (One)
+    }
+  }
+  output (Result)
+}

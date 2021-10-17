@@ -1,0 +1,5 @@
+train (t-xupg10fovuw7u6grp0057mdc1) {
+  utterance ("[g:Result] (2)[v:num1](*)[v:operation:MULTIPLY](4)[v:num2]")
+  enabled (false)
+  last-modified (1634475788459)
+}

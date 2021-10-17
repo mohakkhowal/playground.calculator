@@ -1,0 +1,8 @@
+enum (operation) {
+  description (Operarion to do)
+  symbol (ADD)
+  symbol (SUBTRACT)
+  symbol (DIVIDE)
+  symbol (MULTIPLY)
+  symbol (MOD)
+}

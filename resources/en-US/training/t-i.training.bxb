@@ -1,0 +1,4 @@
+train (t-isq76rbbz3ekfmwsm8vrcbo7s) {
+  utterance ("[g:Result] (Add)[v:operation:ADD] (2)[v:num1] and (4)[v:num2]")
+  last-modified (1634473804015)
+}

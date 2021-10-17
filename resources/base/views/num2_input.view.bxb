@@ -1,0 +1,24 @@
+input-view{
+  match{
+    num2(this)
+  }
+  message ("Enter number 2")
+  render{
+    form{
+      elements{
+        number-input{
+          id (num2)
+          type(num2)
+        }
+      }
+      on-submit{
+        goal{
+          num2
+        }
+        value{
+          viv.core.FormElement(num2)
+        }
+      }
+    }
+  }
+}
